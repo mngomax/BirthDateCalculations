@@ -15,6 +15,7 @@ namespace BirthDateCalculations
             get { return _firstName; }
             set
             {
+                //Make changes 02
                 char firstNameCase = char.Parse(value.Substring(0));
 
                 if (Char.IsUpper(firstNameCase))
