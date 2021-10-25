@@ -11,8 +11,6 @@ namespace BirthDateCalculations
             int DOBLength = DOB.Length;
             var year = DOB.Substring(DOBLength, (DOBLength - 4));
 
-            DateTime thisDay = DateTime.Today.d
-
             string weekDay = FamilyMembers.WeekDay.Thursday.ToString();
             return weekDay;
         }
